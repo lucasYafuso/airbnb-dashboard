@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Entorno virtual ---
+.venv/
+env/
+venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+.notebooks/
+
+# --- Datos locales ---
+# ⚠️ No subas datasets pesados ni sensibles
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# Permití subir un sample chico si querés demo
+!data/processed/airbnb_sample.parquet
+
+# --- VSCode ---
+.vscode/
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
