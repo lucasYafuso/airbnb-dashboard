@@ -1,2 +1,26 @@
-# airbnb-dashboard
-Analysis on Buenos Aires airbnb data 
+# Airbnb Dashboard — CABA
+
+Dashboard interactivo hecho con **Streamlit** para explorar datos de Airbnb en la Ciudad de Buenos Aires.
+
+## Demo
+ [Ver la app en línea](https://airbnb-dashboard.streamlit.app)
+
+## Funcionalidades
+- Filtros por barrio, tipo de habitación, rango de precios y noches mínimas
+- KPIs con métricas rápidas
+- Histogramas, rankings y boxplots interactivos con Plotly
+- Mapa de densidad (hexágonos) con Pydeck
+- Matriz de correlación
+- Tabla y descarga de los listings filtrados (CSV/Parquet)
+
+## Stack
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- Pydeck
+
+## Estructura
+- `app.py`: app principal en Streamlit
+- `src/data_prep.py`: script de limpieza y normalización
+- `data/`: dataset (CSV original y parquet procesado)
