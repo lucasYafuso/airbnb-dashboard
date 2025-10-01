@@ -20,7 +20,7 @@ _apply_plotly_theme()
 def load_data(parquet_path: str) -> pd.DataFrame:
     return pd.read_parquet(parquet_path)
 
-DATA_PATH = "data/processed/airbnb_caba.parquet"
+DATA_PATH = "data/processed/airbnb_sample.parquet"
 df = load_data(DATA_PATH)
 
 # === Defaults calculados a partir de df ===
