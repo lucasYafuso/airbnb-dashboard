@@ -3,7 +3,7 @@
 Dashboard interactivo hecho con **Streamlit** para explorar datos de Airbnb en la Ciudad de Buenos Aires.
 
 ## Demo
- [Ver la app en línea](https://airbnb-dashboard.streamlit.app)
+ [Ver la app en línea](https://airbnb-dashboard-dvkswvc9wyr8nguxfgd2bn.streamlit.app/)
 
 ## Funcionalidades
 - Filtros por barrio, tipo de habitación, rango de precios y noches mínimas
